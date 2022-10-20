@@ -3,6 +3,9 @@ An example of how to set your Laravel application up to enable deployment on Kin
 
 > Kinsta’s Application Hosting is a service to run your web apps and any databases side by side in a hassle-free environment, tailored for developer needs and ease of use. App Hosting is currently in an invite-only beta phase, sign up for a test account at [kinsta.com/application-hosting](https://kinsta.com/application-hosting/).
 
+## Installation
+Because Laravel is using both PHP and Node, you need to add buildpacks for Node.js and PHP. 
+
 ## Dependency Management
 Laravel is a regular PHP-based application, so during the deployment process Kinsta will automatically install dependencies defined in your `composer.json` file.
 
