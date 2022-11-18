@@ -1,3 +1,5 @@
+![Photo by Łukasz Nieścioruk on Unsplash](https://user-images.githubusercontent.com/2342458/202705067-769a52f1-1b44-421d-84ee-cbf8ee4cfb26.png)
+
 # Kinsta - Hello World - Laravel
 An example of how to set your Laravel application up to enable deployment on Kinsta App Hosting services.
 
