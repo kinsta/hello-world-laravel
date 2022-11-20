@@ -10,7 +10,7 @@ Because Laravel is using both PHP and Node, you need to add buildpacks for Node.
 Laravel is a regular PHP-based application, so during the deployment process Kinsta will automatically install dependencies defined in your `composer.json` file.
 
 ## Environment Variables
-Note that Laravel requires the `APP_KEY` environment variable to be set. If this key is not set you will se an error 500 page served by Laravel. You can generate an app key yourself locally, or you can use this [online Laravel key generator](https://generate-random.org/laravel-key-generator). Once you have a key you can add it as an environment variable in the Settings section of your app. 
+Note that Laravel requires the `APP_KEY` environment variable to be set. If this key is not set you will see an error 500 page served by Laravel. You can generate an app key yourself locally, or you can use this [online Laravel key generator](https://generate-random.org/laravel-key-generator). Once you have a key you can add it as an environment variable in the Settings section of your app. 
 
 ## Web Server Setup
 The default web process will be `heroku-php-apache2`. In this example we've created an `.htaccess` file that reroutes all requests to `public/index.php` for Laravel. If you'd like to change this command you can go to the Processes section in MyKinsta for your application. You could use:
