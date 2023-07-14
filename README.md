@@ -24,4 +24,5 @@ The default web process will be `heroku-php-apache2`. In this example we've crea
 * `heroku-php-apache2 /public`
 * `php artisan serve --host 0.0.0.0 --port 8080`
 
-
+## Watch How to Set Up a Laravel Application on Kinsta
+[![Watch the video](https://img.youtube.com/vi/pw-AChDwH7I/maxresdefault.jpg)](https://www.youtube.com/watch?v=pw-AChDwH7I)
